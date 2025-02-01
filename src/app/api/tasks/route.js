@@ -17,3 +17,6 @@ export async function POST(req) {
   const newTask = await Task.create(body);
   return NextResponse.json(newTask, { status: 201 });
 }
+
+
+
